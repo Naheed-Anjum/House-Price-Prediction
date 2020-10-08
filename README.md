@@ -75,19 +75,19 @@ Number of observations in the given testing dataset: 1459
        Low	Depression
 		
 10. Utilities: Type of utilities available
-		
-       AllPub	   All public Utilities (E,G,W,& S)	
-       NoSewr	   Electricity, Gas, and Water (Septic Tank)
-       NoSeWa	   Electricity and Gas Only
-       ELO	     Electricity only	
+
+       AllPub	All public Utilities (E,G,W,& S)	
+       NoSewr	Electricity, Gas, and Water (Septic Tank)
+       NoSeWa	Electricity and Gas Only
+       ELO	Electricity only	
 	
 11. LotConfig: Lot configuration
 
-       Inside	  Inside lot
-       Corner	  Corner lot
-       CulDSac	Cul-de-sac
-       FR2	    Frontage on 2 sides of property
-       FR3	    Frontage on 3 sides of property
+       Inside		Inside lot
+       Corner		Corner lot
+       CulDSac		Cul-de-sac
+       FR2	    	Frontage on 2 sides of property
+       FR3	    	Frontage on 3 sides of property
 	
 12. LandSlope: Slope of property
 		
