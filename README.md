@@ -13,9 +13,9 @@ Number of features/variables in the given dataset: 81
 Number of observations in the given training dataset: 1460
 Number of observations in the given testing dataset: 1459
 
-1. Id: Unique Identification of each customer.
+1.Id: Unique Identification of each customer.
 
-2. MSSubClass: Identifies the type of dwelling involved in the sale.	
+2.MSSubClass: Identifies the type of dwelling involved in the sale.	
 
         20	1-STORY 1946 & NEWER ALL STYLES
         30	1-STORY 1945 & OLDER
@@ -34,7 +34,7 @@ Number of observations in the given testing dataset: 1459
        180	PUD - MULTILEVEL - INCL SPLIT LEV/FOYER
        190	2 FAMILY CONVERSION - ALL STYLES AND AGES
 
-3. MSZoning: Identifies the general zoning classification of the sale.
+3.MSZoning: Identifies the general zoning classification of the sale.
 		
        A	 Agriculture
        C	 Commercial
@@ -45,95 +45,95 @@ Number of observations in the given testing dataset: 1459
        RP	 Residential Low Density Park 
        RM	 Residential Medium Density
 	
-4. LotFrontage: Linear feet of street connected to property
+4.LotFrontage: Linear feet of street connected to property
 
-5. LotArea: Lot size in square feet
+5.LotArea: Lot size in square feet
 
-6. Street: Type of road access to property
+6.Street: Type of road access to property
 
        Grvl	 Gravel	
        Pave	 Paved
        	
-7. Alley: Type of alley access to property
+7.Alley: Type of alley access to property
 
        Grvl	 Gravel
        Pave	 Paved
        NA 	 No alley access
 		
-8. LotShape: General shape of property
+8.LotShape: General shape of property
 
        Reg	Regular	
        IR1	Slightly irregular
        IR2	Moderately Irregular
        IR3	Irregular
        
-9. LandContour: Flatness of the property
+9.LandContour: Flatness of the property
 
        Lvl	Near Flat/Level	
        Bnk	Banked - Quick and significant rise from street grade to building
        HLS	Hillside - Significant slope from side to side
        Low	Depression
 		
-10. Utilities: Type of utilities available
-
+10.Utilities: Type of utilities available
+		
        AllPub	All public Utilities (E,G,W,& S)	
        NoSewr	Electricity, Gas, and Water (Septic Tank)
        NoSeWa	Electricity and Gas Only
        ELO	Electricity only	
 	
-11. LotConfig: Lot configuration
+11.LotConfig: Lot configuration
 
-       Inside		Inside lot
-       Corner		Corner lot
-       CulDSac		Cul-de-sac
-       FR2	    	Frontage on 2 sides of property
-       FR3	    	Frontage on 3 sides of property
-	
-12. LandSlope: Slope of property
+       Inside	Inside lot
+       Corner	Corner lot
+       CulDSac	Cul-de-sac
+       FR2	Frontage on 2 sides of property
+       FR3	Frontage on 3 sides of property
+
+12.LandSlope: Slope of property
 		
        Gtl	Gentle slope
        Mod	Moderate Slope	
        Sev	Severe Slope
 	
-13. Neighborhood: Physical locations within Ames city limits
+13.Neighborhood: Physical locations within Ames city limits
 
        Blmngtn	Bloomington Heights
        Blueste	Bluestem
-       BrDale	  Briardale
+       BrDale	Briardale
        BrkSide	Brookside
        ClearCr	Clear Creek
        CollgCr	College Creek
        Crawfor	Crawford
        Edwards	Edwards
        Gilbert	Gilbert
-       IDOTRR	  Iowa DOT and Rail Road
+       IDOTRR	Iowa DOT and Rail Road
        MeadowV	Meadow Village
        Mitchel	Mitchell
-       Names	  North Ames
+       Names	North Ames
        NoRidge	Northridge
        NPkVill	Northpark Villa
        NridgHt	Northridge Heights
-       NWAmes	  Northwest Ames
+       NWAmes	Northwest Ames
        OldTown	Old Town
-       SWISU	  South & West of Iowa State University
-       Sawyer	  Sawyer
+       SWISU	South & West of Iowa State University
+       Sawyer	Sawyer
        SawyerW	Sawyer West
        Somerst	Somerset
        StoneBr	Stone Brook
-       Timber	  Timberland
+       Timber	Timberland
        Veenker	Veenker
 			
-14. Condition1: Proximity to various conditions
+14.Condition1: Proximity to various conditions
 	
        Artery	  Adjacent to arterial street
        Feedr	  Adjacent to feeder street	
-       Norm	    Normal	
+       Norm	  Normal	
        RRNn  	  Within 200' of North-South Railroad
-       RRAn	    Adjacent to North-South Railroad
-       PosN	    Near positive off-site feature--park, greenbelt, etc.
-       PosA	    Adjacent to postive off-site feature
-       RRNe	    Within 200' of East-West Railroad
-       RRAe	    Adjacent to East-West Railroad
+       RRAn	  Adjacent to North-South Railroad
+       PosN	  Near positive off-site feature--park, greenbelt, etc.
+       PosA	  Adjacent to postive off-site feature
+       RRNe	  Within 200' of East-West Railroad
+       RRAe	  Adjacent to East-West Railroad
 	
 15. Condition2: Proximity to various conditions (if more than one is present)
 		
@@ -531,13 +531,13 @@ Number of observations in the given testing dataset: 1459
        Oth	   Other
 		
 80. SaleCondition: Condition of sale
-
-       Normal	   Normal Sale
-       Abnorml	 Abnormal Sale -  trade, foreclosure, short sale
-       AdjLand	 Adjoining Land Purchase
-       Alloca	   Allocation - two linked properties with separate deeds, typically condo with a garage unit	
-       Family	   Sale between family members
-       Partial	 Home was not completed when last assessed (associated with New Homes)
+       
+       Normal	Normal Sale
+       Abnorml	Abnormal Sale -  trade, foreclosure, short sale
+       AdjLand	Adjoining Land Purchase
+       Alloca	Allocation - two linked properties with separate deeds, typically condo with a garage unit	
+       Family	Sale between family members
+       Partial	Home was not completed when last assessed (associated with New Homes)
        
 81. SalePrice: Selling price of house.
 
